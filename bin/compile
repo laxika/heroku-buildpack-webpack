@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 bp_dir=$(cd $(dirname $0); cd ..; pwd)
-build_dir=$1
+build_dir="$1/src/main/webapp"
 cache_dir=$2
 env_dir=$3
 
